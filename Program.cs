@@ -10,7 +10,9 @@ namespace evenoddproject
     {
         // This is a program to find a number weather odd or even number..!
         static void Main(string[] args)
+
         {
+            Console.WriteLine("Enter the number:")
             int num = int.Parse(Console.ReadLine());
             if (num % 2 == 0)
             {
